@@ -10,6 +10,12 @@ video {
    height: auto;
 }
 
+img:fullscreen,
+video:fullscreen {
+   object-fit: contain;
+   background: #000;
+}
+
 section {
    padding: 50px 0;
 }
@@ -47,13 +53,14 @@ section {
    text-align: center;
    font-weight: 700;
    font-size: 23px;
-   margin-bottom: 30px;
+   margin-bottom: 40px;
 }
 
 .cancel__descr {
    font-size: 18px;
    font-weight: 500;
    margin-bottom: 20px;
+   text-align: center;
 }
 
 .cancel__btn-back {
@@ -74,4 +81,28 @@ section {
 .footer {
    text-align: center;
    color: aliceblue;
+}
+
+/* Фиксированная "рамка" для фото и видео */
+.carousel-item {
+   background: #000;
+   /* фон под разными пропорциями */
+   text-align: center;
+   /* выравнивание контента */
+}
+
+/* Изображения и видео одинаково масштабируются */
+.carousel-item img,
+.carousel-item video {
+   max-height: 60vh;
+   /* адаптивная высота, можно 400–600px */
+   width: auto;
+   max-width: 100%;
+   height: auto;
+   object-fit: contain;
+   margin: 0 auto;
+   /* чтобы по центру */
+   display: block;
+   background: #000;
+   transition: transform 0.3s ease, opacity 0.3s ease;
 }

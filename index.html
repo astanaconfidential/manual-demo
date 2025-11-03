@@ -37,25 +37,26 @@
                      Список отмен
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <li><a class="dropdown-item" href="#bitoe">Битое видео</a></li>
-                     <li><a class="dropdown-item" href="#negrnz">Не ГРНЗ</a></li>
-                     <li><a class="dropdown-item" href="#controller">Некорректные данные контроллера</a></li>
-                     <li><a class="dropdown-item" href="#netfacta">Нет факта нарушения</a></li>
-                     <li><a class="dropdown-item" href="#nechitaem">Нечитаемый номерной знак</a></li>
-                     <li><a class="dropdown-item" href="#nomervysoko">Номер расположен высоко</a></li>
-                     <li><a class="dropdown-item" href="#obrezan">Обрезанное фото предписания</a></li>
-                     <li><a class="dropdown-item" href="#otsmedia">Отсутствие медиафайлов</a></li>
-                     <li><a class="dropdown-item" href="otsrazmetok">Отсутствие разметок</a></li>
-                     <li><a class="dropdown-item" href="#track">Ошибки в линии трека</a></li>
-                     <li><a class="dropdown-item" href="#perekrrazmetok">Перекрытие разметки</a></li>
-                     <li><a class="dropdown-item" href="#probka">Пробка на дороге</a></li>
-                     <li><a class="dropdown-item" href="#pomehi">Помехи перед ГРНЗ</a></li>
-                     <li><a class="dropdown-item" href="#proekcia">Проблемы с определением проекции ТС</a></li>
-                     <li><a class="dropdown-item" href="#focus">Сбился фокус</a></li>
-                     <li><a class="dropdown-item" href="#sehnastroiki">Съехавшие настройки калибровки</a></li>
-                     <li><a class="dropdown-item" href="#kolebania">Сильное колебание опоры</a></li>
-                     <li><a class="dropdown-item" href="#evakuator">ТС на эвакуаторе</a></li>
-                     <li><a class="dropdown-item" href="#sehcamera">Съехала камера</a></li>
+                     <li><a class="dropdown-item" href="#VID_ERR">Битое видео</a></li>
+                     <li><a class="dropdown-item" href="#NO_GRNZ">Не ГРНЗ</a></li>
+                     <li><a class="dropdown-item" href="#WRONG_GRNZ">Неверное определение ГРНЗ</a></li>
+                     <li><a class="dropdown-item" href="#CTRL_ERR">Некорректные данные контроллера</a></li>
+                     <li><a class="dropdown-item" href="#NO_VIOL">Нет факта нарушения</a></li>
+                     <li><a class="dropdown-item" href="#UNREAD_GRN">Нечитаемый номерной знак</a></li>
+                     <li><a class="dropdown-item" href="#WRONG_M3">Ошибочные грузовые/М3</a></li>
+                     <li><a class="dropdown-item" href="#NO_MARK">Отсутствие разметок на проезжей части</a></li>
+                     <li><a class="dropdown-item" href="#TRACK_ERR">Ошибки в линии трека</a></li>
+                     <li><a class="dropdown-item" href="#MARK_OVER">Перекрытие разметки</a></li>
+                     <li><a class="dropdown-item" href="#WEATHER">Погодные условия</a></li>
+                     <li><a class="dropdown-item" href="#CAM_OBST">Помехи перед камерой</a></li>
+                     <li><a class="dropdown-item" href="#PROJ_ERR">Проблемы с определением проекции ТС</a></li>
+                     <li><a class="dropdown-item" href="#FOCUS_ERR">Сбился фокус</a></li>
+                     <li><a class="dropdown-item" href="#BITR_ERR">Сбился битрейт</a></li>
+                     <li><a class="dropdown-item" href="#BEST_FRAME">Сбился лучший кадр</a></li>
+                     <li><a class="dropdown-item" href="#SETT_ERR">Съехавшие настройки камеры</a></li>
+                     <li><a class="dropdown-item" href="#CAM_MISAL">Съехала камера</a></li>
+                     <li><a class="dropdown-item" href="#SYNC_ERR">Рассинхрон</a></li>
+                     <li><a class="dropdown-item" href="#TOW_TS">Ведомые ТС</a></li>
 
                   </ul>
                </li>
@@ -77,7 +78,7 @@
       <div class="cancel cancel-list">
 
 
-         <div class="cancel__reason" id="bitoe">
+         <div class="cancel__reason" id="VID_ERR">
             <div class="cancel__title">Битое видео</div>
             <div class="cancel__descr">Видео прерывается, битые кадры или искажается картинка</div>
             <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
@@ -88,22 +89,22 @@
                      aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2"
                      aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3"
-                     aria-label="Slide 4"></button>
+
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <video autoplay muted loop playsinline webkit-playsinline src="img/1bitoe/1.webm"></video>
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/1_VID_ERR/1.mp4"></video>
                   </div>
                   <div class="carousel-item">
-                     <video autoplay muted loop playsinline webkit-playsinline src="img/1bitoe/2.webm"></video>
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/1_VID_ERR/2.mp4"></video>
                   </div>
                   <div class="carousel-item">
-                     <video autoplay muted loop playsinline webkit-playsinline src="img/1bitoe/3.webm"></video>
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/1_VID_ERR/3.mp4"></video>
                   </div>
-                  <div class="carousel-item">
-                     <video autoplay muted loop playsinline webkit-playsinline src="img/1bitoe/4.webm"></video>
-                  </div>
+
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1"
                   data-bs-slide="prev">
@@ -120,43 +121,43 @@
 
          </div>
 
-         <div class="cancel__reason" id="negrnz">
+         <div class="cancel__reason" id="NO_GRNZ">
 
             <div class="cancel__title">Не ГРНЗ</div>
             <div class="cancel__descr">Посторонние надписи, бортовой номер автобусов/такси, имена на лобовом стекле и
                т.п.</div>
 
-            <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators2" class="carousel slide carousel-dark" data-bs-ride="carousel">
                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
                      aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
                      aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
                      aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3"
                      aria-label="Slide 4"></button>
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/2negrnz/1.png" class="d-block w-100" alt="...">
+                     <img src="img/cancels/2_NO_GRNZ/1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/2negrnz/2.png" class="d-block w-100" alt="...">
+                     <img src="img/cancels/2_NO_GRNZ/2.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/2negrnz/3.png" class="d-block w-100" alt="...">
+                     <img src="img/cancels/2_NO_GRNZ/3.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/2negrnz/4.png" class="d-block w-100" alt="...">
+                     <img src="img/cancels/2_NO_GRNZ/4.jpg" class="d-block w-100" alt="...">
                   </div>
                </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
                   data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
                   data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
@@ -171,52 +172,7 @@
             <div class="cancel__descr">Когда ошибочно распознало ГРНЗ и присвоило вид нарушения М3 или грузовые, и
                другие случаи где мы не можем изменить ГРНЗ вручную и отправить.</div>
 
-            <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-ride="carousel">
-               <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                     aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                     aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                     aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                     aria-label="Slide 4"></button>
-               </div>
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <img src="img/2negrnz/1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/2negrnz/2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/2negrnz/3.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/2negrnz/4.png" class="d-block w-100" alt="...">
-                  </div>
-               </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-               </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-               </button>
-            </div>
-
-         </div>
-
-         <div class="cancel__reason" id="controller">
-
-            <div class="cancel__title">Некорректные данные контроллера</div>
-            <div class="cancel__descr">Когда штрафует если отключен светофор (ничего не горит, без питания), когда
-               желтый мигающий.</div>
-
-            <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators3" class="carousel slide carousel-dark" data-bs-ride="carousel">
                <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active"
                      aria-current="true" aria-label="Slide 1"></button>
@@ -224,19 +180,22 @@
                      aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
                      aria-label="Slide 3"></button>
-
+                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3"
+                     aria-label="Slide 4"></button>
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <video autoplay muted loop playsinline webkit-playsinline src="img/cancels/"></video>
+                     <img src="img/cancels/3_WRONG_GRNZ/1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <video autoplay muted loop playsinline webkit-playsinline src="img/3necorrectcontr/2.mp4"></video>
+                     <img src="img/cancels/3_WRONG_GRNZ/2.jpeg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <video autoplay muted loop playsinline webkit-playsinline src="img/3necorrectcontr/3.mp4"></video>
+                     <img src="img/cancels/3_WRONG_GRNZ/3.jpeg" class="d-block w-100" alt="...">
                   </div>
-
+                  <div class="carousel-item">
+                     <img src="img/cancels/3_WRONG_GRNZ/4.jpg" class="d-block w-100" alt="...">
+                  </div>
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3"
                   data-bs-slide="prev">
@@ -252,13 +211,13 @@
 
          </div>
 
-         <div class="cancel__reason" id="netfacta">
+         <div class="cancel__reason" id="CTRL_ERR">
 
-            <div class="cancel__title">Нет факта нарушения</div>
-            <div class="cancel__descr">Когда нет технических ошибок. Если автомобиль попадает в маски при перестроении с
-               полосы или с проезжей части, откуда разрешено движение.</div>
+            <div class="cancel__title">Некорректные данные контроллера</div>
+            <div class="cancel__descr">Когда штрафует если отключен светофор (ничего не горит, без питания), когда
+               желтый мигающий.</div>
 
-            <div id="carouselExampleIndicators4" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
                <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active"
                      aria-current="true" aria-label="Slide 1"></button>
@@ -266,17 +225,22 @@
                      aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2"
                      aria-label="Slide 3"></button>
+
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/4netfakta/1.jpg" class="d-block w-100" alt="...">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/4_CTRL_ERR/1.webm"></video>
                   </div>
                   <div class="carousel-item">
-                     <img src="img/4netfakta/2.jpg" class="d-block w-100" alt="...">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/4_CTRL_ERR/2.webm"></video>
                   </div>
                   <div class="carousel-item">
-                     <img src="img/4netfakta/3.jfif" class="d-block w-100" alt="...">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/4_CTRL_ERR/3.webm"></video>
                   </div>
+
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4"
                   data-bs-slide="prev">
@@ -292,10 +256,11 @@
 
          </div>
 
-         <div class="cancel__reason" id="nechitaem">
+         <div class="cancel__reason" id="NO_VIOL">
 
-            <div class="cancel__title">Нечитаемый номерной знак</div>
-            <div class="cancel__descr">Стертый нечитабельный ГРНЗ</div>
+            <div class="cancel__title">Нет факта нарушения</div>
+            <div class="cancel__descr">Когда нет технических ошибок. Если автомобиль попадает в маски при перестроении с
+               полосы или с проезжей части, откуда разрешено движение.</div>
 
             <div id="carouselExampleIndicators5" class="carousel slide carousel-dark" data-bs-ride="carousel">
                <div class="carousel-indicators">
@@ -303,18 +268,15 @@
                      aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1"
                      aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2"
-                     aria-label="Slide 3"></button>
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/5nechitaem/1.jfif" class="d-block w-100" alt="...">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/5_NO_VIOL/1.mp4"></video>
                   </div>
                   <div class="carousel-item">
-                     <img src="img/5nechitaem/2.jfif" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/5nechitaem/3.jfif" class="d-block w-100" alt="...">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/5_NO_VIOL/2.mp4"></video>
                   </div>
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5"
@@ -323,6 +285,50 @@
                   <span class="visually-hidden">Previous</span>
                </button>
                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+
+         </div>
+
+         <div class="cancel__reason" id="UNREAD_GRNZ">
+
+            <div class="cancel__title">Нечитаемый номерной знак</div>
+            <div class="cancel__descr">Стертый нечитабельный ГРНЗ</div>
+
+            <div id="carouselExampleIndicators6" class="carousel slide carousel-dark" data-bs-ride="carousel">
+               <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0" class="active"
+                     aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1"
+                     aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2"
+                     aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="3"
+                     aria-label="Slide 4"></button>
+               </div>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="img/cancels/6_UNREAD_GRN/1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/6_UNREAD_GRN/2.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/6_UNREAD_GRN/3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/6_UNREAD_GRN/4.jpg" class="d-block w-100" alt="...">
+                  </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6"
                   data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
@@ -336,32 +342,57 @@
             <div class="cancel__title">Ошибочные грузовые/М3</div>
             <div class="cancel__descr">Когда ошибочно присвоило категорию М3/Грузовые легковому авто или джипу.</div>
 
-            <div id="carouselExampleIndicators5" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators7" class="carousel slide carousel-dark" data-bs-ride="carousel">
                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active"
+                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="0" class="active"
                      aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1"
+                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="1"
                      aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2"
+                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="2"
                      aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="3"
+                     aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="4"
+                     aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="5"
+                     aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="6"
+                     aria-label="Slide 7"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="7"
+                     aria-label="Slide 8"></button>
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/5nechitaem/1.jfif" class="d-block w-100" alt="...">
+                     <img src="img/cancels/7_WRONG_M3/1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/5nechitaem/2.jfif" class="d-block w-100" alt="...">
+                     <img src="img/cancels/7_WRONG_M3/2.jpeg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/5nechitaem/3.jfif" class="d-block w-100" alt="...">
+                     <img src="img/cancels/7_WRONG_M3/3.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/7_WRONG_M3/4.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/7_WRONG_M3/5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/7_WRONG_M3/6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/7_WRONG_M3/7.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/7_WRONG_M3/8.jpg" class="d-block w-100" alt="...">
                   </div>
                </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5"
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators7"
                   data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5"
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators7"
                   data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
@@ -371,11 +402,57 @@
          </div>
 
 
-         <div class="cancel__reason" id="otsrazmetok">
+         <div class="cancel__reason" id="NO_MARK">
 
             <div class="cancel__title">Отсутствие разметок на проезжей части</div>
             <div class="cancel__descr">Когда стерлась дорожная разметка или после замены асфальта.
             </div>
+
+            <div id="carouselExampleIndicators8" class="carousel slide carousel-dark" data-bs-ride="carousel">
+               <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="0" class="active"
+                     aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="1"
+                     aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="2"
+                     aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="3"
+                     aria-label="Slide 4"></button>
+               </div>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/8_NO_MARK/1.mp4"></video>
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/8_NO_MARK/2.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/8_NO_MARK/3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/8_NO_MARK/4.jpg" class="d-block w-100" alt="...">
+                  </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators8"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators8"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+
+         </div>
+
+         <div class="cancel__reason" id="TRACK_ERR">
+
+            <div class="cancel__title">Ошибки в линии трека</div>
+            <div class="cancel__descr">Сильные отклонения желтой линии с маленькими синими точками между двумя жирными
+               синими. Либо если 1 отрезок между двумя жирными синими точками.</div>
 
             <div id="carouselExampleIndicators9" class="carousel slide carousel-dark" data-bs-ride="carousel">
                <div class="carousel-indicators">
@@ -388,13 +465,13 @@
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/9otsutsrazmetok/1.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/9_TRACK_ERR/1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/9otsutsrazmetok/2.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/9_TRACK_ERR/2.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/9otsutsrazmetok/3.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/9_TRACK_ERR/3.jpg" class="d-block w-100" alt="...">
                   </div>
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators9"
@@ -411,11 +488,13 @@
 
          </div>
 
-         <div class="cancel__reason" id="track">
+         <div class="cancel__reason" id="MARK_OVER">
 
-            <div class="cancel__title">Ошибки в линии трека</div>
-            <div class="cancel__descr">Сильные отклонения желтой линии с маленькими синими точками между двумя жирными
-               синими. Либо если 1 отрезок между двумя жирными синими точками.</div>
+            <div class="cancel__title">Перекрытие разметки</div>
+            <div class="cancel__descr">Когда на протяжении всего видео из-за перекрытия калибровочных параметров
+               габаритными ТС. Невозможно убедиться в пересечении сплошной, проезда стоп линии. Не видно красной линии
+               масштаба на всем протяжении основного видео, а не в одном фото нарушения.
+            </div>
 
             <div id="carouselExampleIndicators10" class="carousel slide carousel-dark" data-bs-ride="carousel">
                <div class="carousel-indicators">
@@ -425,16 +504,27 @@
                      aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="2"
                      aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="3"
+                     aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="4"
+                     aria-label="Slide 5"></button>
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/10oshibkatracka/1.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/10_MARK_OVER/1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/10oshibkatracka/2.jpg" class="d-block w-100" alt="...">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/10_MARK_OVER/2.mp4"></video>
                   </div>
                   <div class="carousel-item">
-                     <img src="img/10oshibkatracka/3.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/10_MARK_OVER/3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/10_MARK_OVER/4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/10_MARK_OVER/5.jpg" class="d-block w-100" alt="...">
                   </div>
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators10"
@@ -443,48 +533,6 @@
                   <span class="visually-hidden">Previous</span>
                </button>
                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators10"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-               </button>
-            </div>
-
-         </div>
-
-         <div class="cancel__reason" id="perekrrazmetok">
-
-            <div class="cancel__title">Перекрытие разметки</div>
-            <div class="cancel__descr">Когда на протяжении всего видео из-за перекрытия калибровочных параметров
-               габаритными ТС. Невозможно убедиться в пересечении сплошной, проезда стоп линии. Не видно красной линии
-               масштаба на всем протяжении основного видео, а не в одном фото нарушения.
-            </div>
-
-            <div id="carouselExampleIndicators11" class="carousel slide carousel-dark" data-bs-ride="carousel">
-               <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="0"
-                     class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="1"
-                     aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="2"
-                     aria-label="Slide 2"></button>
-               </div>
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <img src="img/11perekrytierazmetki/3.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/11perekrytierazmetki/1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/11perekrytierazmetki/2.jpg" class="d-block w-100" alt="...">
-                  </div>
-               </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators11"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-               </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators11"
                   data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
@@ -506,19 +554,17 @@
                      class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="1"
                      aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="2"
-                     aria-label="Slide 2"></button>
+
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/11perekrytierazmetki/3.jpg" class="d-block w-100" alt="...">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/11_WEATHER/1.mp4"></video>
                   </div>
                   <div class="carousel-item">
-                     <img src="img/11perekrytierazmetki/1.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/11_WEATHER/2.jpg" class="d-block w-100" alt="...">
                   </div>
-                  <div class="carousel-item">
-                     <img src="img/11perekrytierazmetki/2.jpg" class="d-block w-100" alt="...">
-                  </div>
+
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators11"
                   data-bs-slide="prev">
@@ -535,12 +581,54 @@
          </div>
 
 
-         <div class="cancel__reason" id="pomehi">
+         <div class="cancel__reason" id="CAM_OBST">
 
             <div class="cancel__title">Помехи перед камерой</div>
             <div class="cancel__descr">Любой объект который загораживает светофор или ТС нарушителя и по этой
                причине неправильно распознал ГРНЗ (ветки, птицы, другие машины в потоке, столбы, знаки, светофоры и т.д.
                и т.п.)
+            </div>
+
+            <div id="carouselExampleIndicators12" class="carousel slide carousel-dark" data-bs-ride="carousel">
+               <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="0"
+                     class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="1"
+                     aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="2"
+                     aria-label="Slide 3"></button>
+               </div>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="img/cancels/12_CAM_OBST/1.jpg" d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/12_CAM_OBST/2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/12_CAM_OBST/3.jpg" class="d-block w-100" alt="...">
+                  </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators12"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators12"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+
+         </div>
+
+         <div class="cancel__reason" id="PROJ_ERR">
+
+            <div class="cancel__title">Проблемы с определением проекции ТС</div>
+            <div class="cancel__descr">Высоко расположенный ГРНЗ на габаритных ТС (на лобовом, на крыше и т.д.) по виду
+               нарушения превышение скорости. Когда синяя маска отходит от габаритов ТС - находится слишком высоко,
+               меньше габаритов или сильно больше габаритов.
             </div>
 
             <div id="carouselExampleIndicators13" class="carousel slide carousel-dark" data-bs-ride="carousel">
@@ -551,16 +639,31 @@
                      aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="2"
                      aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="3"
+                     aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="4"
+                     aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="5"
+                     aria-label="Slide 6"></button>
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/13pomexigrnz/1.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/13_PROJ_ERR/1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/13pomexigrnz/2.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/13_PROJ_ERR/2.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/13pomexigrnz/3.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/13_PROJ_ERR/3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/13_PROJ_ERR/4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/13_PROJ_ERR/5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/13_PROJ_ERR/6.jpeg" class="d-block w-100" alt="...">
                   </div>
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators13"
@@ -577,13 +680,10 @@
 
          </div>
 
-         <div class="cancel__reason" id="proekcia">
+         <div class="cancel__reason" id="FOCUS_ERR">
 
-            <div class="cancel__title">Проблемы с определением проекции ТС</div>
-            <div class="cancel__descr">Высоко расположенный ГРНЗ на габаритных ТС (на лобовом, на крыше и т.д.) по виду
-               нарушения превышение скорости. Когда синяя маска отходит от габаритов ТС - находится слишком высоко,
-               меньше габаритов или сильно больше габаритов.
-            </div>
+            <div class="cancel__title">Сбился фокус</div>
+            <div class="cancel__descr">Размытое мутное изображение ТС и ГРНЗ</div>
 
             <div id="carouselExampleIndicators14" class="carousel slide carousel-dark" data-bs-ride="carousel">
                <div class="carousel-indicators">
@@ -595,20 +695,26 @@
                      aria-label="Slide 3"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide-to="3"
                      aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide-to="4"
+                     aria-label="Slide 5"></button>
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/14problemyproekcii/1.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/14_FOCUS_ERR/1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/14problemyproekcii/2.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/14_FOCUS_ERR/2.jpeg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/14problemyproekcii/3.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/14_FOCUS_ERR/3.jpeg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/14problemyproekcii/4.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/13_PROJ_ERR/4.jpg" class="d-block w-100" alt="...">
                   </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/14_FOCUS_ERR/5.jpg" class="d-block w-100" alt="...">
+                  </div>
+
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators14"
                   data-bs-slide="prev">
@@ -624,51 +730,7 @@
 
          </div>
 
-         <div class="cancel__reason" id="focus">
-
-            <div class="cancel__title">Сбился фокус</div>
-            <div class="cancel__descr">Размытое мутное изображение ТС и ГРНЗ</div>
-
-            <div id="carouselExampleIndicators15" class="carousel slide carousel-dark" data-bs-ride="carousel">
-               <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="0"
-                     class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="1"
-                     aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="2"
-                     aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="3"
-                     aria-label="Slide 4"></button>
-               </div>
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <img src="img/15fokus/1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/15fokus/2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/15fokus/3.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/15fokus/4.jpg" class="d-block w-100" alt="...">
-                  </div>
-               </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators15"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-               </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators15"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-               </button>
-            </div>
-
-         </div>
-
-         <div class="cancel__reason" id="BITRATE_ERR">
+         <div class="cancel__reason" id="BITR_ERR">
 
             <div class="cancel__title">Сбился битрейт</div>
             <div class="cancel__descr">Плохое качество видео, большая пикселизация, неразборчиво виден ГРНЗ либо вообще
@@ -684,19 +746,29 @@
                      aria-label="Slide 3"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="3"
                      aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="4"
+                     aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="5"
+                     aria-label="Slide 6"></button>
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/15fokus/1.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/15_BITR_ERR/1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/15fokus/2.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/15_BITR_ERR/2.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/15fokus/3.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/15_BITR_ERR/3.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/15fokus/4.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/15_BITR_ERR/4.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/15_BITR_ERR/5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/15_BITR_ERR/6.jpeg" class="d-block w-100" alt="...">
                   </div>
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators15"
@@ -713,61 +785,12 @@
 
          </div>
 
-         <div class="cancel__reason" id="BESTFRAME_ERR">
+         <div class="cancel__reason" id="BEST_FRAME">
 
             <div class="cancel__title">Сбился лучший кадр</div>
             <div class="cancel__descr">Обрезанное фото для предписания когда ТС видно не полностью, не видно ГРНЗ, или
                видна только половина ТС. Либо когда на основном видео хорошо видно номер, но на фото ТС выбрало
                наихудший кадр с неразборчивым ГРНЗ.
-            </div>
-
-            <div id="carouselExampleIndicators15" class="carousel slide carousel-dark" data-bs-ride="carousel">
-               <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="0"
-                     class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="1"
-                     aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="2"
-                     aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators15" data-bs-slide-to="3"
-                     aria-label="Slide 4"></button>
-               </div>
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <img src="img/15fokus/1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/15fokus/2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/15fokus/3.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="img/15fokus/4.jpg" class="d-block w-100" alt="...">
-                  </div>
-               </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators15"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-               </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators15"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-               </button>
-            </div>
-
-         </div>
-
-         <div class="cancel__reason" id="sehnastroiki">
-
-            <div class="cancel__title">Съехавшие настройки камеры</div>
-            <div class="cancel__descr">Когда какие-либо настройки камеры сбились и не вернулись в исходное состояние.
-               Например ч/б изображение днем и наоборот ночью не перешла в ч/б. Замедленное видео. Когда слишком
-               затемненное изображение. Когда цветовые настройки сбились. Либо когда камера на месте, но калибровочные
-               параметры неправильно настроены и спамит ошибочными нарушениями. (завышает скорость, или маски
-               стоп/красный не на месте)
             </div>
 
             <div id="carouselExampleIndicators16" class="carousel slide carousel-dark" data-bs-ride="carousel">
@@ -778,17 +801,19 @@
                      aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators16" data-bs-slide-to="2"
                      aria-label="Slide 3"></button>
+
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/16sehalinastroiki/1.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/16_BEST_FRAME/1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/16sehalinastroiki/2.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/16_BEST_FRAME/2.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/16sehalinastroiki/3.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/16_BEST_FRAME/3.jpeg" class="d-block w-100" alt="...">
                   </div>
+
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators16"
                   data-bs-slide="prev">
@@ -804,48 +829,89 @@
 
          </div>
 
-         <div class="cancel__reason" id="sehcamera">
+         <div class="cancel__reason" id="SETT_ERR">
+
+            <div class="cancel__title">Съехавшие настройки камеры</div>
+            <div class="cancel__descr">Когда какие-либо настройки камеры сбились и не вернулись в исходное состояние.
+               Например ч/б изображение днем и наоборот ночью не перешла в ч/б. Замедленное видео. Когда слишком
+               затемненное изображение. Когда цветовые настройки сбились. Либо когда камера на месте, но калибровочные
+               параметры неправильно настроены и спамит ошибочными нарушениями. (завышает скорость, или маски
+               стоп/красный не на месте)
+            </div>
+
+            <div id="carouselExampleIndicators17" class="carousel slide carousel-dark" data-bs-ride="carousel">
+               <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators17" data-bs-slide-to="0"
+                     class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators17" data-bs-slide-to="1"
+                     aria-label="Slide 2"></button>
+
+               </div>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="img/cancels/17_SETT_ERR/1.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/17_SETT_ERR/2.jpg" class="d-block w-100" alt="...">
+                  </div>
+
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators17"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators17"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+
+         </div>
+
+         <div class="cancel__reason" id="CAM_MISAL">
 
             <div class="cancel__title">Съехала камера</div>
             <div class="cancel__descr">Когда не на месте основная, обзорная или светофорная камера.
             </div>
 
-            <div id="carouselExampleIndicators19" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators18" class="carousel slide carousel-dark" data-bs-ride="carousel">
                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators19" data-bs-slide-to="0"
+                  <button type="button" data-bs-target="#carouselExampleIndicators18" data-bs-slide-to="0"
                      class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators19" data-bs-slide-to="1"
+                  <button type="button" data-bs-target="#carouselExampleIndicators18" data-bs-slide-to="1"
                      aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators19" data-bs-slide-to="2"
+                  <button type="button" data-bs-target="#carouselExampleIndicators18" data-bs-slide-to="2"
                      aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators19" data-bs-slide-to="3"
+                  <button type="button" data-bs-target="#carouselExampleIndicators18" data-bs-slide-to="3"
                      aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators19" data-bs-slide-to="4"
+                  <button type="button" data-bs-target="#carouselExampleIndicators18" data-bs-slide-to="4"
                      aria-label="Slide 5"></button>
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/19sehalacamera/1.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/18_CAM_MISAL/1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/19sehalacamera/2.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/18_CAM_MISAL/2.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/19sehalacamera/3.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/18_CAM_MISAL/3.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/19sehalacamera/4.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/18_CAM_MISAL/4.jpeg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/19sehalacamera/5.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/18_CAM_MISAL/5.jpg" class="d-block w-100" alt="...">
                   </div>
                </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators19"
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators18"
                   data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators19"
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators18"
                   data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
@@ -872,25 +938,26 @@
                      aria-label="Slide 3"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators19" data-bs-slide-to="3"
                      aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators19" data-bs-slide-to="4"
-                     aria-label="Slide 5"></button>
+
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/19sehalacamera/1.jpg" class="d-block w-100" alt="...">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/19_SYNC_ERR/1.mp4"></video>
                   </div>
                   <div class="carousel-item">
-                     <img src="img/19sehalacamera/2.jpg" class="d-block w-100" alt="...">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/19_SYNC_ERR/2.mp4"></video>
                   </div>
                   <div class="carousel-item">
-                     <img src="img/19sehalacamera/3.jpg" class="d-block w-100" alt="...">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/19_SYNC_ERR/3.mp4"></video>
                   </div>
                   <div class="carousel-item">
-                     <img src="img/19sehalacamera/4.jpg" class="d-block w-100" alt="...">
+                     <video autoplay muted loop playsinline webkit-playsinline
+                        src="img/cancels/19_SYNC_ERR/4.mp4"></video>
                   </div>
-                  <div class="carousel-item">
-                     <img src="img/19sehalacamera/5.jpg" class="d-block w-100" alt="...">
-                  </div>
+
                </div>
                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators19"
                   data-bs-slide="prev">
@@ -906,33 +973,48 @@
 
          </div>
 
-         <div class="cancel__reason" id="evakuator">
+         <div class="cancel__reason" id="TOW_TS">
 
             <div class="cancel__title">Ведомые ТС</div>
             <div class="cancel__descr">Когда машина без водителя на эвакуаторе/автовозе/прицепе. Либо когда на тросу
                буксируют или толкают машину.</div>
 
-            <div id="carouselExampleIndicators18" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators20" class="carousel slide carousel-dark" data-bs-ride="carousel">
                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators18" data-bs-slide-to="0"
+                  <button type="button" data-bs-target="#carouselExampleIndicators20" data-bs-slide-to="0"
                      class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators18" data-bs-slide-to="1"
+                  <button type="button" data-bs-target="#carouselExampleIndicators20" data-bs-slide-to="1"
                      aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators20" data-bs-slide-to="2"
+                     aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators20" data-bs-slide-to="3"
+                     aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators20" data-bs-slide-to="4"
+                     aria-label="Slide 5"></button>
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/18tsnaevakuatore/1.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/20_TOW_TS/1.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                     <img src="img/18tsnaevakuatore/2.jpg" class="d-block w-100" alt="...">
+                     <img src="img/cancels/20_TOW_TS/2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/20_TOW_TS/3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/20_TOW_TS/4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="img/cancels/20_TOW_TS/5.jpg" class="d-block w-100" alt="...">
                   </div>
                </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators18"
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators20"
                   data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators18"
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators20"
                   data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
