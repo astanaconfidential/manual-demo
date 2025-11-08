@@ -6,7 +6,7 @@ videoPlayer.forEach((v) => {
 
 
 // fullscreen
-const mediaElements = document.querySelectorAll('img, video')
+const mediaElements = document.querySelectorAll('img')
 
 mediaElements.forEach((el) => {
    el.addEventListener('click', () => {
